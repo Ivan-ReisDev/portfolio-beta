@@ -1,0 +1,177 @@
+@media (max-width: 900px)
+{
+  .animar {
+    margin-top: 28%;
+  } 
+
+  .sobre h3 {
+    margin-bottom: 30px;
+  }
+
+  .sobre-direita img {
+    width: 425px;
+  }
+
+  .tecnologias {
+    margin: auto;
+    width: 80%;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  
+  .logo {
+    margin-left: 2%;
+
+  }
+  h1 {
+    font-size: 15px;
+
+  }
+
+  .animar {
+    margin-top: 40%;
+  }
+
+  .animar h2 {
+    font-size: 26px;
+
+  }
+
+  .animar p {
+    font-size: 15px;
+  }
+
+  header nav ul li a  {
+    font-size: 11px;
+  }
+
+  .sobre-direita img {
+    display: block;
+    margin-top: 40%;
+    width: 250px;
+  }
+
+  .sobre-esquerda {
+    max-width: 60%;
+  }
+
+  .sobre-esquerda img {
+    bottom: -100px;
+    width: 125px;
+  }
+
+  .sobre-direita {
+    max-width: 40%;
+
+   }
+ 
+}
+
+
+@media (max-width: 600px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+nav, .menuul {
+  flex-direction: column;
+
+}
+
+.menuul {
+  height: 0;
+  overflow: hidden;
+  transition: all .5s;
+  
+}
+
+nav ul li {
+width: 100%;
+padding: 30px;
+border-bottom: 1px solid #22232c ;
+
+}
+
+
+.menu-botao {
+  display: flex;
+  
+}
+
+.menu-botao:focus ~ ul {
+  height: 320px;
+  
+  
+}
+header ul {
+  margin: 0;
+}
+
+
+
+header nav ul li a  {
+  font-size: 16px;
+
+  font-weight: normal;
+
+}
+
+.animar {
+  margin-top: 67%;
+  margin-left: 4%;
+}
+  .animar h2 {
+    font-size: 24px;
+
+  }
+
+  .animar{
+    font-size: 8px;
+  }
+
+  .sobre-direita {
+    display: none;
+  }
+
+  .sobre-esquerda {
+    max-width: 100%;
+  }
+
+  .tecnologias {
+    margin-top: 140px;
+  }
+
+
+  .tecnologias p {
+    margin: 30px;
+  }
+
+
+  .tecnologias-pai {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .tecnologias-unico {
+    display: block;
+    margin: auto;
+  }
+
+  .contatos ul {
+    display: fixed;
+    right: 5px;
+  }
+
+
+}
+
+

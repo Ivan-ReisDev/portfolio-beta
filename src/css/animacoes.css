@@ -1,0 +1,15 @@
+#modal.animar {
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-fill-mode:forwards ;
+    animation-delay: .3s;
+}
+
+
+
+@keyframes slide {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
