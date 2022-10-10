@@ -229,21 +229,26 @@ nav ul li a:hover {
 
 .tecnologias-pai {
     display: flex;
-    max-width: 500px;
+    max-width: auto;
     margin: auto;
+    max-width: 680px;
     
 }
 .tecnologias-unico h3 {
     color: #00BEBB;
     text-align: left;
-    margin-left: 15px;
+    margin-left: 16px;
     margin-top: 15px;
+    
+    
+    
 }
 
 .tecnologias-unico p {
     text-align: left;
     margin: 5px 15px 0;
-    font-size: 12px;
+    font-size: 14px;
+    max-width: 280px;
 }
 
 .tecnologias-unico p span {
@@ -259,11 +264,10 @@ nav ul li a:hover {
 .tecnologias-unico {
     background-color: white;
     border-radius: 5px; 
-    box-shadow: 1px 1px 15px black;
-    max-width: 250px;   
-    min-height: 250px;
-    padding-bottom: 10px;
-    margin: 20px 10px;
+    box-shadow: 5px 5px 10px rgb(102, 102, 102);
+    min-width: 300px;   
+    min-height: 230px;
+
 }
 
 .tecnologias-unico h3 {
@@ -271,8 +275,8 @@ nav ul li a:hover {
 }
 
 .tecnologias-pai div {
-
-    margin: 25px 5px;
+margin: 25px auto;
+    
 
 }
 
@@ -355,3 +359,8 @@ footer {
 footer p {
     padding: 50px 0;
 }
+
+
+
+
+
