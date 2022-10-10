@@ -38,8 +38,6 @@ a {
     text-decoration: none;
 }
 
-
-
 hr {
     border: 1px solid #1c1d26;
     margin-top: 50px;
@@ -48,6 +46,8 @@ hr {
 
 
 /* ============ MENU PRINCIPAL ============*/
+
+
 
 header h1 {
     margin-left: 13%;
@@ -132,7 +132,6 @@ nav ul li a:hover {
  margin-top: 15%;
  opacity: 0;
  transform: translateX(-40px);
-
 }
 
 .animar span, .animar strong{
@@ -148,7 +147,6 @@ nav ul li a:hover {
 .animar p {
     font-size: 18px;
 }
-
 
 /* ========== SOBRE =========== */
 
@@ -166,7 +164,6 @@ nav ul li a:hover {
     position: relative;
 }
 
-
 .sobre-esquerda h3 {
     font-weight: bold;
     margin-top: 40px;
@@ -177,7 +174,6 @@ nav ul li a:hover {
     text-align:justify ;
     margin: 3% 15%
 }
-
 
 .sobre-esquerda button {
     border: 1px solid transparent;
@@ -190,7 +186,6 @@ nav ul li a:hover {
     letter-spacing: 2px;
     cursor: pointer;
 }
-
 
 .sobre-esquerda button:hover {
     background-color: #00BEBB;
@@ -217,34 +212,14 @@ nav ul li a:hover {
 
 /* ============ TECNOLOGIAS ============*/
 
-
 .tecnologias {
     text-align: center;
 }
 
 .tecnologias img {
-    width: 50%;
-}
+    width: 100px;
+    margin-top: 15px;
 
-
-.tecnologias-pai {
-    display: flex;
-    align-items: center;
-    margin: auto;
-    width: 380px;
-    height: 390px;
- 
-}
-
-
-.tecnologias-unico {
-    margin: 0 5px;
-    padding: 0;
-    text-align: center;
-    background-color: white;
-    width: 180px;
-    height: 150px;
-    box-shadow: 1px 1px 10px rgb(82, 82, 82);
 }
 
 .tecnologias p {
@@ -252,9 +227,53 @@ nav ul li a:hover {
     margin-top: 50px;
 }
 
+.tecnologias-pai {
+    display: flex;
+    max-width: 500px;
+    margin: auto;
+    
+}
+.tecnologias-unico h3 {
+    color: #00BEBB;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.tecnologias-unico p {
+    text-align: left;
+    margin: 5px 15px 0;
+    font-size: 12px;
+}
+
+.tecnologias-unico p span {
+    color: #00BEBB;
+    font-weight: bold;
+}
+
+.tecnologias-unico h3 span {
+    font-weight: normal;
+    color: black;
+}
+
+.tecnologias-unico {
+    background-color: white;
+    border-radius: 5px; 
+    box-shadow: 1px 1px 15px black;
+    max-width: 250px;   
+    min-height: 250px;
+    padding-bottom: 10px;
+    margin: 20px 10px;
+}
+
 .tecnologias-unico h3 {
     font-size: 15px;
-    margin: 10px 0;
+}
+
+.tecnologias-pai div {
+
+    margin: 25px 5px;
+
 }
 
 /* ============ PROJETOS ============*/
@@ -336,8 +355,3 @@ footer {
 footer p {
     padding: 50px 0;
 }
-
-
-
-
-
