@@ -14,7 +14,6 @@
 
   .tecnologias {
     margin: auto;
-    width: 80%;
   }
 }
 
@@ -170,6 +169,8 @@ header nav ul li a  {
     display: block;
     min-height: 10px;
     margin: auto;
+    max-width: 150px;  
+    min-height: 230px;
  
   }
 
@@ -184,3 +185,5 @@ header nav ul li a  {
 
 
 }
+
+
