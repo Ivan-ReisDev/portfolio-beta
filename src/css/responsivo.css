@@ -16,7 +16,6 @@
     margin: auto;
     width: 80%;
   }
-
 }
 
 
@@ -156,14 +155,27 @@ header nav ul li a  {
 
 
   .tecnologias-pai {
+    background-color: aqua;
     width: 100%;
     height: 100%;
     display: block;
+
+  }
+
+  .tecnologias-pai div {
+    margin: auto;
+    margin-top: 25px;
   }
 
   .tecnologias-unico {
     display: block;
+    min-height: 10px;
     margin: auto;
+ 
+  }
+
+  .tecnologias-unico p {
+    margin: 5px 15px;
   }
 
   .contatos ul {
@@ -173,5 +185,3 @@ header nav ul li a  {
 
 
 }
-
-
