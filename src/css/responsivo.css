@@ -66,6 +66,9 @@
 
    }
  
+   .contatos {
+    display: none;
+   }
 }
 
 
@@ -182,8 +185,4 @@ header nav ul li a  {
     display: fixed;
     right: 5px;
   }
-
-
 }
-
-
