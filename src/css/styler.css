@@ -130,8 +130,7 @@ nav ul li a:hover {
  text-align: left;
  margin-left: 13%;
  margin-top: 15%;
- opacity: 0;
- transform: translateX(-40px);
+
 }
 
 .animar span, .animar strong{
