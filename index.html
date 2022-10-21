@@ -16,6 +16,7 @@
     <link href="https: //fonts.googleapis.com/css2? family= Source+Sans+Pro:wght@200 & display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="src/img/codigo.png">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Portfolio - Ivan Reis</title>
 </head>
 <body>
@@ -29,7 +30,7 @@
 </section>
     <header>
         <nav>
-            <h1 class="logo" data-aos="fade-right"> &#60;/Ivan Reis&#62;</h1>
+            <h1 class="logo animar-left"> &#60;/Ivan Reis&#62;</h1>
             <button class="menu-botao"><i class="fa-solid fa-bars"></i></button>
             <ul class="menuul">
                 <li><a href="#contato-footer" class="menu">Contato</a></li>
@@ -41,13 +42,13 @@
     </header>
 
     <section class="inicio" >
-            <div id="modal" class="animar">
+            <div id="modal" class="animar animar-left">
                <span>&#60; / &#62;</span>
                 <h2>Desenvolvedor Web - <strong>Ivan Reis</strong></h2>
                 <p>Seja bem-vindo, conheça alguns dos meus projetos.</p>
             </div>
     </section>
-    <section id="sobre" class="sobre" data-aos="fade-left" >
+    <section id="sobre" class="sobre">
             <div class="sobre-esquerda"> 
                 <h3>&#60;/Sobre &#62;</h3>
                 <p>Meu nome é Ivan Reis e sou estudante de Análise e Desenvolvimento de Sistemas, buscando sua primeira experiência na área da programação.
@@ -61,29 +62,29 @@
                 <img src="src/img/Programmer-amico (1).png" alt="">
             </div>
     </section>
-    <section id="tecnologias" class="tecnologias" data-aos="fade-right">
+    <section id="tecnologias" class="tecnologias animar-left">
             <h3>&#60; /Tecnologias &#62;</h3>
             <p>Ao longo dos meus estudos venho aprendendo algumas tecnologias, busco sempre melhorar e me aprimorar em cada uma delas, abaixo estão algumas.</p>
             <div class="tecnologias-pai">
                 <div>
-                    <div class="tecnologias-unico" data-aos="fade-down-right">
+                    <div class="tecnologias-unico tecnologias-html">
                         <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt=""></a>
                         <h3>Nome:<span> HTML5</span></h3>
                         <p><span>Descrição:</span> Linguagem de marcação utilizada na construção de páginas na Web</p>
                     </div>
-                    <div class="tecnologias-unico" data-aos="fade-up-right"  >
+                    <div class="tecnologias-unico tecnologias-css">
                         <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt=""></a>
                         <h3>Nome:<span> CSS3</span></h3>
                         <p><span>Descrição:</span> Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web</p>
                     </div>
                 </div>
                 <div>
-                    <div class="tecnologias-unico" data-aos="fade-down-left">
+                    <div class="tecnologias-unico tecnologias-javascript ">
                         <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt=""></a>
                         <h3>Nome:<span> JavaScript</span></h3>
                         <p><span>Descrição:</span> é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
                     </div>
-                    <div class="tecnologias-unico" data-aos="fade-up-left">
+                    <div class="tecnologias-unico tecnologias-python ">
                         <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt=""></a>
                         <h3>Nome:<span> Python</span></h3>
                         <p><span>Descrição:</span> Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.</p>
@@ -91,7 +92,7 @@
                 </div>
             </div>
     </section>
-    <section class="projetos" data-aos="fade-down" >
+    <section class="projetos">
             <h3> &#60; /Projetos &#62;</h3>
             <div class="projetos-pai">
                 
@@ -149,15 +150,9 @@
             Todos os direitos reservados</p>
     </footer>
     <script src="https://kit.fontawesome.com/a838236c7b.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init( 
-        {duration: 1500,
-        }
-      );
-    </script>
     <script src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js" crossorigin="anonymous" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
     <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="src/js/animacao.js"></script>
 </body>
 </html>
