@@ -41,5 +41,5 @@ sr.reveal('.tecnologias-javascript', {
     rotate: {x: 500, y: 0, z:0},
     scale: 0.1,
     easing: 'ease-in',
-    duration: 1500,
+    duration: 3500,
   });
