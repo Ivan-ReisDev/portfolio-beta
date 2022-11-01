@@ -5,6 +5,7 @@
 - HTML5
 - CSS3
 - Javascript
+- Biblioteca ScrollReveal
 
 ![portfolio](https://user-images.githubusercontent.com/109477902/199236039-9fc3d960-e2b9-4565-98d8-d303fee890e7.jpg)
 
