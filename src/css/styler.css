@@ -1,5 +1,3 @@
-
-
 * {
     padding: 0;
     margin: 0;
@@ -12,22 +10,21 @@ html {
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #e7ecef;
-    overflow-x: hidden ;
-
+    background-color: hsl(202, 20%, 92%);
+    overflow-x: hidden;
 }
 
 h1 {
     margin: 0;
-    font-size: 20px;
+    font-size: 1.25em;
     color: white;
     font-weight: normal;
-    padding: 12px;
-    letter-spacing: 5px;
+    padding: 0.75em;
+    letter-spacing: 0.3125em;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 1.875em;
 }
 
 ul {
@@ -39,22 +36,20 @@ a {
 }
 
 hr {
-    border: 1px solid #1c1d26;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    border: 0.0625em solid hsl(234, 15%, 13%);
+    margin-top: 3.125em;
+    margin-bottom: 3.125em;
 }
 
-
 /* ============ MENU PRINCIPAL ============*/
-
-
 
 header h1 {
     margin-left: 13%;
 }
+
 nav {
     display: flex;
-    background-color: #1c1d26;
+    background-color: hsl(234, 15%, 13%);
     justify-content: space-between;
 }
 
@@ -66,22 +61,22 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 0.9375em;
     padding: 0;
 }
 
-nav ul li a{ 
-    font-size: 15px;
-    color: white;
+nav ul li a {
+    font-size: 0.9375em;
+    color: hsl(0, 0%, 100%);
     transition: all .5s;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 0.125em;
 }
 
 nav ul li a:hover {
-    color: #00BEBB;
+    color: hsl(179, 100%, 37%);
     transition: all .5s;
-    text-shadow: 1px 1px 25px #00BEBB;
+    text-shadow: 0.0625em 0.0625em 1.5625em hsl(179, 100%, 37%);
     content: inherit;
 }
 
@@ -90,19 +85,19 @@ nav ul li a:hover {
     background-color: transparent;
     display: none;
     position: static;
-    right: 15px;
-    top: 8px;
-    cursor:pointer;
-    color: white;
-    font-size: 28px;
+    right: 0.9375em;
+    top: 0.5em;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.75em;
     border: none;
     transition: all .6s;
     position: absolute;
 }
 
 .menu-botao:hover {
-    text-shadow: 1px 1px 20px #00BEBB;
-    color: #00BEBB;
+    text-shadow: 0.0625em 0.0625em 1.25em hsl(179, 100%, 37%);
+    color: hsl(179, 100%, 37%);
     transition: all .6s;
 }
 
@@ -118,45 +113,44 @@ nav ul li a:hover {
     position: relative;
 }
 
-.animar span { 
+.animar span {
     font-weight: bold;
-    font-size: 35px;
-    
-} 
-
-.animar {
- position:absolute;
- color: white;
- text-align: left;
- margin-left: 13%;
- margin-top: 15%;
-
+    font-size: 2.1875em;
 }
 
-.animar span, .animar strong{
-    color: #00BEBB;
+.animar {
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    margin-left: 13%;
+    margin-top: 15%;
+}
+
+.animar span,
+.animar strong {
+    color: hsl(179, 100%, 37%);
     display: inline-block;
 }
 
 .animar h2 {
-    font-size: 35px;
-
+    font-size: 2.1875em;
 }
 
 .animar p {
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 /* ========== SOBRE =========== */
 
 .sobre {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 6.25em;
 }
 
 .sobre p {
-    color: rgb(58, 58, 58);
+    color: hsl(0, 0%, 23%);
 }
+
 .sobre-esquerda {
     max-width: 50%;
     text-align: center;
@@ -165,48 +159,47 @@ nav ul li a:hover {
 
 .sobre-esquerda h3 {
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 2.5em;
 }
 
 .sobre-esquerda p {
     align-items: center;
-    text-align:justify ;
+    text-align: justify;
     margin: 3% 15%
 }
 
 .sobre-esquerda button {
-    border: 1px solid transparent;
-    background-color: #1c1d26;
-    color: #00BEBB;
+    border: 0.0625em solid transparent;
+    background-color: hsl(234, 15%, 13%);
+    color: hsl(179, 100%, 37%);
     font-weight: bold;
-    padding: 5px 15px;
-    margin-top: 20px;
-    border-radius: 25px;
-    letter-spacing: 2px;
+    padding: 0.3125em 0.9375em;
+    margin-top: 1.25em;
+    border-radius: 1.5625em;
+    letter-spacing: 0.125em;
     cursor: pointer;
 }
 
 .sobre-esquerda button:hover {
-    background-color: #00BEBB;
-    color: #1c1d26;
-    border:1px solid #1c1d26;
-    box-shadow: 1px 1px 20px #00BEBB;;
-    
+    background-color: hsl(179, 100%, 37%);
+    color: hsl(234, 15%, 13%);
+    border: 0.0625em solid hsl(234, 15%, 13%);
+    box-shadow: 0.0625em 0.0625em 1.25em hsl(179, 100%, 37%);
 }
 
 .sobre-esquerda img {
-    width: 150px;
+    width: 9.375em;
     position: absolute;
-    left: 5px;
-
+    left: 0.3125;
 }
+
 .sobre-direita {
     width: 50%;
     text-align: center;
 }
 
 .sobre-direita img {
-    width: 450px;
+    width: 28.125em;
 }
 
 /* ============ TECNOLOGIAS ============*/
@@ -216,98 +209,94 @@ nav ul li a:hover {
 }
 
 .tecnologias img {
-    width: 100px;
-    margin-top: 15px;
-
+    width: 6.25em;
+    margin-top: 0.9375em;
 }
 
 .tecnologias p {
-    color: rgb(58, 58, 58);
-    margin-top: 50px;
+    color: hsl(0, 0%, 23%);
+    margin-top: 3.125em;
 }
 
 .tecnologias-pai {
     display: flex;
     max-width: auto;
     margin: auto;
-    max-width: 680px;
-    
+    max-width: 42.5em;
 }
+
 .tecnologias-unico h3 {
-    color: #00BEBB;
+    color: hsl(179, 100%, 37%);
     text-align: left;
-    margin-left: 16px;
-    margin-top: 15px;
-    
-    
-    
+    margin-left: 1em;
+    margin-top: 0.9375em;
 }
 
 .tecnologias-unico p {
     text-align: left;
-    margin: 5px 15px 0;
-    font-size: 14px;
-    max-width: 280px;
+    margin: 0.3125em 0.9375em 0;
+    font-size: 0.875em;
+    max-width: 17.5em;
 }
 
 .tecnologias-unico p span {
-    color: #00BEBB;
+    color: hsl(179, 100%, 37%);
     font-weight: bold;
 }
 
 .tecnologias-unico h3 span {
     font-weight: normal;
-    color: black;
+    color: hsl(0, 0%, 0%);
 }
 
 .tecnologias-unico {
-    background-color: white;
-    border-radius: 5px; 
-    box-shadow: 5px 5px 10px rgb(102, 102, 102);
-    min-width: 300px;   
-    min-height: 230px;
-
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0.3125em;
+    box-shadow: 0.3125em 0.3125em 0.625em hsl(0, 0%, 40%);
+    min-width: 18.75em;
+    min-height: 14.375em;
 }
 
 .tecnologias-unico h3 {
-    font-size: 15px;
+    font-size: 0.9375em;
 }
 
 .tecnologias-pai div {
-margin: 25px auto;
-    
-
+    margin: 1.5625em auto;
 }
 
 /* ============ PROJETOS ============*/
 
-.projetos-pai img  {
-    width: 800px;
+.projetos-pai img {
+    width: 50em;
 }
+
 .projetos {
     width: 97%;
     text-align: center;
-    margin-top: 50px;
-    margin: 50px auto 80px;
+    margin-top: 3.125em;
+    margin: 3.125em auto 5em;
 }
+
 .projetos h3 {
-    margin-bottom: 50px;
+    margin-bottom: 3.125em;
 }
+
 /* ========= CONTATOS ========== */
 
 .contatos ul {
     position: fixed;
-    bottom: 20px;
-    right: 30px;
+    bottom: 1.25em;
+    right: 1.875em;
     z-index: 1;
-
 }
+
 .contatos li {
-    background-color: rgba(0, 0, 0, 0.548);
-    padding: 10px;
-    margin:10px 0;
+    background-color: hsla(0, 0%, 0%, 0.549);
+    padding: 0.625em;
+    margin: 0.625em 0;
     text-align: center;
-    border-radius: 7px;
+    border-radius: 0.4375em;
     transition: all .6s;
 }
 
@@ -316,65 +305,64 @@ margin: 25px auto;
 .instagram:hover,
 .github:hover {
     transition: all .6s;
-
 }
 
 .linkedin:hover {
-    background-color: #0e76a8;
+    background-color: hsl(199, 85%, 36%);
 }
 
 .whatsapp:hover {
-    background-color: #34af23;
+    background-color: hsl(113, 67%, 41%);
 }
 
 .instagram:hover {
-    background-color: #DD2A7B;
+    background-color: hsl(333, 72%, 52%);
 }
 
 .github:hover {
-    background-color: #1c1d26;
+    background-color: hsl(234, 15%, 13%);
 }
 
 .contatos a {
-    color: white;
-    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5625em;
 }
 
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 0.4375em;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #1c1d26;
-    border-radius: 10px;
+    background-color: hsl(234, 15%, 13%);
+    border-radius: 0.625em;
 }
 
 footer {
-    background-color: #1c1d26;
-    color: #797979;
+    background-color: hsl(234, 15%, 13%);
+    color: hsl(0, 0%, 47%);
     text-align: center;
 }
 
 footer p {
-    padding: 50px 0;
+    padding: 3.125em 0;
 }
 
 .contato-footer {
     display: flex;
-    background-color: #313342;
+    background-color: hsl((233, 15%, 23%), 15%, 23%);
     justify-content: center;
 }
 
 .contato-footer li {
-    margin: 5px 10px;
+    margin: 0.3125em 0.625em;
 }
 
 .contato-footer a {
     font-size: 1.4em;
-    color: white;
+    color: hsl(0, 0%, 100%);
 }
 
 .contato-footer a:hover {
-    color: #00BEBB;
-    text-shadow: 1px 1px 30px #00BEBB;
+    color: hsl(179, 100%, 37%);
+    text-shadow: 0.0625em 0.0625em 1.875em hsl(179, 100%, 37%);
 }
